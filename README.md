@@ -45,7 +45,7 @@ is_hazardous: Boolean indicating if the NEO is potentially hazardous.
 * Results: The best-performing model achieved an AUC-ROC score of 0.92 and an F1-score of 0.85 on the test set.
 
 ## Key Findings
-* Imbalanced Dataset: The dataset was highly imbalanced, with only ~10% of NEOs classified as hazardous. Techniques like SMOTE and Random Oversampling were effective in balancing the dataset.
+* Imbalanced Dataset: The dataset was highly imbalanced, with only ~10% of NEOs classified as hazardous. Techniques  Random Oversampling was effective in balancing the dataset.
 
 * Feature Importance: Features like absolute_magnitude and relative_velocity were found to be highly predictive of whether an NEO is hazardous.
 
